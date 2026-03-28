@@ -250,6 +250,28 @@
     line-height: 1.8;
   }
 
+  /* OUTCOMES */
+  .outcomes-bg {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .outcomes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  .outcomes-left p {
+    font-size: 14px;
+    color: var(--ink-muted);
+    line-height: 1.9;
+    margin-bottom: 16px;
+  }
+  .outcomes-left p strong { color: var(--ink); font-weight: 500; }
+  .outcomes-list { list-style: none; display: flex; flex-direction: column; gap: 14px; }
+  .outcomes-list li { display: flex; gap: 14px; font-size: 14px; line-height: 1.6; }
+  .outcomes-list li::before { content: "/"; color: var(--accent); flex-shrink: 0; font-weight: 500; }
+
   /* PRICING */
   .pricing-bg {
     background: var(--ink);
@@ -655,6 +677,7 @@
     <a class="nav-logo" href="#">Wild <span>Duck</span> Dev</a>
     <ul>
       <li><a href="#process">Process</a></li>
+      <li><a href="#outcomes">Why it works</a></li>
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#reviews">Reviews</a></li>
@@ -668,7 +691,7 @@
   <h1>I find the bugs<br>before your <em>players do.</em></h1>
   <p class="hero-sub">I playtest indie games end-to-end, document every bug I find, and deliver a full session recording. Real feedback from a real first-time player.</p>
   <div class="hero-actions">
-    <a href="https://buy.stripe.com/4gM28scTC0857Bjdox5c400" target="_blank" class="btn-primary">Book a Session — $20</a>
+    <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank" class="btn-primary">Book a Session — $20</a>
     <a href="#work" class="btn-secondary">See My Work</a>
   </div>
 </div>
@@ -714,10 +737,35 @@
   </div>
 </div>
 
+<div class="outcomes-bg">
+  <div class="section" id="outcomes">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>What you'll actually find out</h2>
+    </div>
+    <div class="outcomes-grid">
+      <div class="outcomes-left">
+        <p>Most developers know their game inside out. Every decision made sense when you made it, every mechanic feels obvious because you built it. <strong>That's the problem.</strong></p>
+        <p>Your players have none of that context. They come in blind, and the gap between what you intended and what they experience is where games get abandoned.</p>
+        <p>I play your game exactly like that first player does — no documentation, no walkthrough, no prior knowledge. What you get back is an honest picture of that gap.</p>
+      </div>
+      <div>
+        <ul class="outcomes-list">
+          <li>Where players get confused or lose momentum</li>
+          <li>Which mechanics aren't landing the way you intended</li>
+          <li>What causes frustration, and what causes genuine enjoyment</li>
+          <li>Bugs and edge cases you've stopped noticing</li>
+          <li>Moments that work well and should be doubled down on</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="pricing-bg">
   <div class="section" id="pricing">
     <div class="section-header">
-      <span class="section-num">02</span>
+      <span class="section-num">03</span>
       <h2>Pricing</h2>
     </div>
     <div class="pricing-card">
@@ -740,7 +788,7 @@
             <li>Delivered within 48 hours</li>
           </ul>
         </div>
-        <a href="https://buy.stripe.com/4gM28scTC0857Bjdox5c400" target="_blank" class="btn-book">Book for $20</a>
+        <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank" class="btn-book">Book for $20</a>
       </div>
     </div>
   </div>
@@ -748,7 +796,7 @@
 
 <div class="section" id="work">
   <div class="section-header">
-    <span class="section-num">03</span>
+    <span class="section-num">04</span>
     <h2>Recent playtests</h2>
   </div>
   <div class="videos-grid">
@@ -779,7 +827,7 @@
 <div class="reviews-bg" id="reviews">
   <div class="section">
     <div class="section-header">
-      <span class="section-num">04</span>
+      <span class="section-num">05</span>
       <h2>What devs say</h2>
     </div>
     <div class="reviews-viewport">
@@ -845,7 +893,7 @@
       </div>
       <div class="contact-detail">
         <strong>Book</strong>
-        <a href="https://buy.stripe.com/4gM28scTC0857Bjdox5c400" target="_blank">Stripe — $20 per session</a>
+        <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank">Stripe — $20 per session</a>
       </div>
     </div>
     <div>
@@ -874,7 +922,7 @@
     <span>Wild Duck Dev &copy; 2026</span>
     <div style="display:flex;gap:24px;">
       <a href="https://www.youtube.com/@WildDuckDev" target="_blank">YouTube</a>
-      <a href="https://buy.stripe.com/4gM28scTC0857Bjdox5c400" target="_blank">Book a Session</a>
+      <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank">Book a Session</a>
     </div>
   </div>
 </footer>
