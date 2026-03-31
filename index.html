@@ -700,7 +700,7 @@
   <h1>I find the bugs<br>before your <em>players do.</em></h1>
   <p class="hero-sub">I playtest indie games end-to-end, document every bug I find, and deliver a full session recording. Real feedback from a real first-time player.</p>
   <div class="hero-actions">
-    <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank" class="btn-primary">Book a Session — $20</a>
+    <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank" class="btn-primary" onclick="gtag("event","click",{"event_category":"booking","event_label":"hero_book_button"}) onclick="gtag("event", "click", {event_category: "booking", event_label: "hero_book_button"})>Book a Session — $20</a>
     <a href="#work" class="btn-secondary">See My Work</a>
   </div>
 </div>
@@ -797,7 +797,7 @@
             <li>Delivered within 48 hours</li>
           </ul>
         </div>
-        <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank" class="btn-book">Book for $20</a>
+        <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank" class="btn-book" onclick="gtag("event","click",{"event_category":"booking","event_label":"pricing_book_button"}) onclick="gtag("event", "click", {event_category: "booking", event_label: "pricing_book_button"})>Book for $20</a>
       </div>
     </div>
   </div>
@@ -809,26 +809,26 @@
     <h2>Recent playtests</h2>
   </div>
   <div class="videos-grid">
-    <a class="video-card" href="https://www.youtube.com/watch?v=hvH5X10JgJc" target="_blank">
+    <a class="video-card" href="https://www.youtube.com/watch?v=TF2VfL0Hw8o" target="_blank" onclick="gtag('event','click',{'event_category':'video','event_label':'NARNOK'})">
       <div class="video-thumb">
-        <img src="https://img.youtube.com/vi/hvH5X10JgJc/mqdefault.jpg" alt="A Thousand Bees playtest">
+        <img src="https://img.youtube.com/vi/TF2VfL0Hw8o/mqdefault.jpg" alt="NARNOK playtest">
       </div>
-      <div class="video-title">Playtesting A Thousand Bees</div>
+      <div class="video-title">Playtesting NARNOK - Tutorials, Playthrough and Feedback</div>
       <div class="video-meta">Playthrough, Bugs & Feedback</div>
     </a>
-    <a class="video-card" href="https://www.youtube.com/watch?v=Ef_PFEIy6Dk" target="_blank">
-      <div class="video-thumb">
-        <img src="https://img.youtube.com/vi/Ef_PFEIy6Dk/mqdefault.jpg" alt="Hovertron playtest">
-      </div>
-      <div class="video-title">Playtesting Hovertron</div>
-      <div class="video-meta">Gameplay & Feedback</div>
-    </a>
-    <a class="video-card" href="https://www.youtube.com/watch?v=mCaOsi4xKWo" target="_blank">
+    <a class="video-card" href="https://www.youtube.com/watch?v=mCaOsi4xKWo" target="_blank" onclick="gtag('event','click',{'event_category':'video','event_label':'OrbiTower'})">
       <div class="video-thumb">
         <img src="https://img.youtube.com/vi/mCaOsi4xKWo/mqdefault.jpg" alt="OrbiTower playtest">
       </div>
       <div class="video-title">Playtesting OrbiTower - Planet Defense</div>
       <div class="video-meta">Playtesting & Feedback</div>
+    </a>
+    <a class="video-card" href="https://www.youtube.com/watch?v=hvH5X10JgJc" target="_blank" onclick="gtag('event','click',{'event_category':'video','event_label':'A Thousand Bees'})">
+      <div class="video-thumb">
+        <img src="https://img.youtube.com/vi/hvH5X10JgJc/mqdefault.jpg" alt="A Thousand Bees playtest">
+      </div>
+      <div class="video-title">Playtesting A Thousand Bees</div>
+      <div class="video-meta">Playthrough, Bugs & Feedback</div>
     </a>
   </div>
 </div>
@@ -898,7 +898,7 @@
       </div>
       <div class="contact-detail">
         <strong>YouTube</strong>
-        <a href="https://www.youtube.com/@WildDuckDev" target="_blank">@WildDuckDev</a>
+        <a href="https://www.youtube.com/@WildDuckDev" target="_blank" onclick="gtag("event", "click", {event_category: "outbound", event_label: "youtube_channel"})>@WildDuckDev</a>
       </div>
       <div class="contact-detail">
         <strong>Book</strong>
@@ -930,7 +930,7 @@
   <div class="footer-inner">
     <span>Wild Duck Dev &copy; 2026</span>
     <div style="display:flex;gap:24px;">
-      <a href="https://www.youtube.com/@WildDuckDev" target="_blank">YouTube</a>
+      <a href="https://www.youtube.com/@WildDuckDev" target="_blank" onclick="gtag("event", "click", {event_category: "outbound", event_label: "youtube_channel"})>YouTube</a>
       <a href="https://buy.stripe.com/fZu8wQ5ra085cVD98h5c401" target="_blank">Book a Session</a>
     </div>
   </div>
